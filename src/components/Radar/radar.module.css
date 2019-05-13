@@ -1,0 +1,9 @@
+.matrix {
+  flex-grow: 1;
+}
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}

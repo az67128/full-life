@@ -1,0 +1,23 @@
+.sector {
+  fill: white;
+  stroke: #bdbdbd;
+}
+
+.filled.hobby {
+  fill: #7a3f79;
+}
+.filled.friendship {
+  fill: #459591;
+}
+.filled.health {
+  fill: #e5b844;
+}
+.filled.job {
+  fill: #e36738;
+}
+.filled.love {
+  fill: #e53e46;
+}
+.filled.welfare {
+  fill: #479773;
+}

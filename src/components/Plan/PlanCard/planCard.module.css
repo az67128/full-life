@@ -1,0 +1,71 @@
+.planCard {
+  width: 50%;
+  display: flex;
+  align-items: stretch;
+  border-radius: 8px;
+}
+.container {
+  background: white;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+  border-radius: 8px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.titleText {
+  color: rgba(0, 0, 0, 0.8);
+}
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px 0px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 3px 3px -2px;
+  transform: translate(0, -2px);
+}
+.progressBackground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background: #e0e0e0;
+}
+.progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10%;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.statusText {
+  margin-top: 0.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.progress.hobby {
+  background: #7a3f79;
+}
+.progress.friendship {
+  background: #459591;
+}
+.progress.health {
+  background: #e5b844;
+}
+.progress.job {
+  background: #e36738;
+}
+.progress.love {
+  background: #e53e46;
+}
+.progress.welfare {
+  background: #479773;
+}
